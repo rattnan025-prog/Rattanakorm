@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>แนะนำตัวเอง</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, "Tahoma", sans-serif;
+            background: linear-gradient(135deg, #e3f2fd, #ffffff);
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 50px auto;
+        }
+
+        .profile-card {
+            background: white;
+            border-radius: 25px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid #2196f3;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #777;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .info {
+            text-align: left;
+            background: #f5faff;
+            padding: 25px;
+            border-radius: 18px;
+            margin-top: 20px;
+        }
+
+        .info h2 {
+            color: #1976d2;
+            margin-top: 0;
+        }
+
+        .info p {
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill {
+            background: #2196f3;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="profile-card">
+
+            <!-- รูปโปรไฟล์ -->
+            <img src="https://scontent.fbkk8-1.fna.fbcdn.net/v/t39.30808-6/465157977_3886725811602704_8273471956180171424_n.jpg?stp=dst-jpg_tt6&cstp=mx960x954&ctp=s960x954&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Lx_kzwD4ZGoQ7kNvwGpJFAI&_nc_oc=Adr70tuAb_8AcEXbi2p0-Vpm6RmTXkCnLYakt5q_q4PRqIyjcD-6L3Ra0Pl5_7sXLdg&_nc_zt=23&_nc_ht=scontent.fbkk8-1.fna&_nc_gid=I47Lfv0q05gM8CfFxUcWFg&_nc_ss=7b2a8&oh=00_AQNEJ-wzYg8d0ma-UfvmNhlc47yDDiqYHHlGG2W3vBJEjg&oe=6ACB8131" class="profile-img" alt="รูปโปรไฟล์">
+
+            <!-- ชื่อ -->
+            <h1>สวัสดีค่ะ เราชื่อ รัตนากร</h1>
+
+            <p class="subtitle">
+                นักศึกษาครุศาสตร์ สาขาคอมพิวเตอร์และเทคโนโลยีดิจิทัลเพื่อการศึกษา
+            </p>
+
+            <!-- ข้อมูลส่วนตัว -->
+            <div class="info">
+                <h2>👨‍💻 เกี่ยวกับฉัน</h2>
+
+                <p>
+                    สวัสดีค่ะ เราเป็นนักศึกษาที่มีความสนใจด้านกราฟิค คอมพิวเตอร์
+                    เทคโนโลยีดิจิทัล และการนำเทคโนโลยีมาประยุกต์ใช้ในการศึกษา
+                    ผมชอบเรียนรู้สิ่งใหม่ ๆ และพัฒนาทักษะของตนเองอยู่เสมอ
+                </p>
+            </div>
+
+            <!-- การศึกษา -->
+            <div class="info">
+                <h2>🎓 การศึกษา</h2>
+
+                <p>
+                    <strong>มหาวิทยาลัยราชภัฏอุตรดิตถ์</strong><br>
+                    คณะครุศาสตร์<br>
+                    สาขาคอมพิวเตอร์และเทคโนโลยีดิจิทัลเพื่อการศึกษา
+                </p>
+            </div>
+
+            <!-- งานอดิเรก -->
+            <div class="info">
+                <h2>🎮 งานอดิเรกและความสนใจ</h2>
+
+                <div class="skills">
+                    <span class="skill">💻 คอมพิวเตอร์</span>
+                    <span class="skill">🎨 การออกแบบ</span>
+                    <span class="skill">🏀 บาสเกตบอล</span>
+                    <span class="skill">🎬 ฟังเพลงประกอบภาพยนตร์</span>
+                    <span class="skill">📱 เทคโนโลยี</span>
+                </div>
+            </div>
+
+            <footer>
+                © 2026 My Profile Website
+            </footer>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
